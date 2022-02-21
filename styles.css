@@ -20,7 +20,38 @@ main{
     align-items:center;
     justify-content: center;
 }
-div{
+.section-cpu .card-cpu{
+    display: grid;
+    grid-template-areas: 
+    "a a a a"
+    "b b c c"
+    "b b c c";
+    width: 300px; 
+    height: 150px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    margin-top: 50px;
+    background-color: #66d;
+}
+.section-cpu .card-cpu h3{
+    grid-area: a;
+}
+.section-cpu .CPU-counter{
+    grid-area: b;
+}
+.section-cpu .CPU-counter p{
+    font-size: 32px;
+}
+.section-cpu .USER-counter{
+    grid-area: c;
+}
+.section-cpu .USER-counter p{
+    font-size: 32px;
+}
+.section-select-card{
+    margin-top: 50px;
+}
+.section-select-card div{
     background-color: #55d;
     display: inline-block;
     width: 125px;
@@ -49,4 +80,12 @@ div{
 }
 .tijera{
     background-image: url('./image/tijera.jpg');
+}
+.reload{
+    width: 100px;
+    height: 55px;
+    margin: 10px auto;
+    background-color: #d55;
+    border: 2px solid #555;
+    border-radius: 8px;
 }

@@ -9,17 +9,29 @@
 </head>
 <body>
     <header>
-        <p>Esto es el header</p>
     </header>
     <main>
         <section class="section-cpu">
-            <div class="card-cpu">resultado</div>
+            <div class="card-cpu">
+                <h3>Marcador
+                    <p id="marcador"></p>
+                </h3>
+                <div class="CPU-counter">
+                    CPU
+                    <p id="cpu-counter"></p>
+                </div>
+                <div class="USER-counter">
+                    USER
+                    <p id="user-counter"></p>
+                </div>
+            </div>
         </section>
         <section class="section-select-card">
             <div class="card-piedra"></div>
             <div class="card-papel" ></div>
             <div class="card-tijera"></div>
         </section>
+        <button class="reload">Reload</button>
     </main>
     <script src="main.js"></script>
 </body>
