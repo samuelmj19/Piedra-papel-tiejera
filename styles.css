@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+
+header{
+    width: 100%;
+    height: 50px;
+    background-color: #d55;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.section-cpu{
+    height: 200px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+div{
+    background-color: #55d;
+    display: inline-block;
+    width: 125px;
+    height: 150px;
+    margin: 5px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: solid 2px #ddd;
+    border-radius: 10px;
+}
+.card-piedra{
+    background-image: url('./image/piedra.jpg');
+}
+.card-papel{
+    background-image: url('./image/papel.jpg');
+}
+.card-tijera{
+    background-image: url('./image/tijera.jpg');
+}
+.piedra{
+    background-image: url('./image/piedra.jpg');
+}
+.papel{
+    background-image: url('./image/papel.jpg');
+}
+.tijera{
+    background-image: url('./image/tijera.jpg');
+}
